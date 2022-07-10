@@ -136,11 +136,6 @@ class SiteController extends Controller
         ]);
     }
 
-    public function saya()
-    {
-        return $this->render('saya');
-    }
-
     /**
      * Displays about page.
      *
@@ -149,7 +144,6 @@ class SiteController extends Controller
     public function actionAbout()
     {
         return $this->render('about');
-        // echo '<h1>About</h1>';   
     }
 
     /**
